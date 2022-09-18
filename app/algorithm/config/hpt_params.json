@@ -16,10 +16,9 @@
     "type": "int",
     "search_type": "uniform",
     "range_low": 2,
-    "range_high": 10,
+    "range_high": 5,
     "run_HPO": true
   },
-
   {
     "name": "min_samples_leaf",
     "short_desc": "The minimum number of samples required to be at a leaf node.",
@@ -27,10 +26,9 @@
     "type": "int",
     "search_type": "uniform",
     "range_low": 1,
-    "range_high": 20,
+    "range_high": 5,
     "run_HPO": true
   },
-
   {
     "name": "learning_rate",
     "short_desc": "Learning rate shrinks the contribution of each tree by learning_rate",
@@ -41,15 +39,14 @@
     "range_high": 1.0,
     "run_HPO": true
   },
-
   {
     "name": "max_depth",
-    "short_desc": "The maximum depth of the individual regression estimators",
+    "short_desc": "The maximum depth of the individual estimators",
     "default": 3,
     "type": "int",
     "search_type": "uniform",
     "range_low": 1,
-    "range_high": 30,
+    "range_high": 5,
     "run_HPO": true
   }
 ]

@@ -2,7 +2,7 @@
 local_test/ml_vol/
 **/test_results/
 **/artifacts
-ml_vol/
+ml_vol/outputs/
 **/examples/**/*.txt
 
 artifacts/
